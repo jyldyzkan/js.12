@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+
+}
+.check{
+    margin: 50px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex ;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-4{
+ width: 33.33% ;
+    padding: 15px ;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bgRed{
+    background: url("https://sharik.pro/design/sharik_v4/images/slider/sl2.jpg") no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    align-items: center;
+
+}
